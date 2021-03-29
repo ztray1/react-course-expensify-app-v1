@@ -3,7 +3,7 @@ import React from "react";
 import AddExpensePage from "../components/AddExpensePage";
 import EditExpensePage from "../components/EditExpensePage";
 import HelpPage from "../components/HelpPage";
-import notFoundPage from "../components/notFoundPage";
+import notFoundPage from "../components/NotFoundPage";
 import ExpenseDashBoardPage from "../components/ExpenseDashBoardPage";
 import Header from "../components/Header";
 

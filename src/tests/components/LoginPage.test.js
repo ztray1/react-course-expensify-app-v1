@@ -8,8 +8,8 @@ test("should correctly render LoginPage",()=>{
 })
 
 test("should call startLogin on button click",()=>{
-    const startLogin=jest.fn();
-    const wrapper=shallow(<LoginPage startLogin={startLogin}/>)
-    wrapper.find("button").simulate("click");
-    expect(startLogin).toHaveBeenCalled();
+    const startGithubLogin=jest.fn();
+    const wrapper=shallow(<LoginPage startGithubLogin={startGithubLogin}/>)
+    wrapper.find("button").at(0).simulate("click");
+    expect(startGithubLogin).toHaveBeenCalled();
 })
